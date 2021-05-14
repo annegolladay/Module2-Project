@@ -6,7 +6,10 @@
 */
 
 //CODE HERE
-
+function sum(num1, num2) {
+  return num1 + num2
+}
+console.log(sum(1, 2))
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,6 +20,14 @@
 */
 
 //CODE HERE
+function greaterThanFive(number) {
+  if(number > 5) {
+    return true
+  } else {
+    return false
+  }
+}
+console.log(greaterThanFive(5))
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -27,6 +38,16 @@
 */
 
 //CODE HERE
+/*
+function findZWords(word) {
+  if (word.startsWith('Z') {
+    return 'the name begins with Z'
+  } else {
+    return 'the name does not begin with Z'
+  }
+}
+console.log(findZWords(zebra))
+*/
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -36,3 +57,8 @@
 */
 
 //CODE HERE
+
+function iLove(name, love) {
+  return `${name} loves ${love}`
+}
+console.log(iLove('Joseph', 'music'))
