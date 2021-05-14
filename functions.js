@@ -40,14 +40,13 @@ console.log(greaterThanFive(5))
 //CODE HERE
 
 function findZWords(word) {
-  let wordUppercase = word.charAt(0).toUpperCase() + word.slice(1)
-  if (wordUppercase.startsWith('Z') {
+  if (word.startsWith('Z') && word[0].toUpperCase() + word.slice(1)) {
     return 'the name begins with Z'
   } else {
     return 'the name does not begin with Z'
   }
 }
-console.log(findZWords('zebra'))
+console.log(findZWords('Zebra'))
 
 
 //////////////////PROBLEM 4////////////////////
