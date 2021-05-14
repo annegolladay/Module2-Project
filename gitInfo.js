@@ -10,6 +10,8 @@
 */
 
 //CODE HERE
+let gitDefinition = 'Git is a version control program that helps track files and your projects history and is also easily used for group projects. It is very easy for a big team to work together and easily fix any mistakes. It allows the user to track and make changes to a project. You can also go back and see whats been done in the past with the files history if needed.'
+
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +20,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = 'GitHub is a great hosting place for teams and groups to collaborate on a single code project or more. Its a great program to use together along with git that you can access from anywhere on the internet. It also allows others to see what projects you are working on if set to public. Others can actually fork your project and use your code as well.'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -35,6 +38,11 @@
 
 //CODE HERE
 
+let init = {
+    description:'This command initializes a local repository right here in this folder',
+    code:'git init'
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +50,11 @@
 */
 
 //CODE HERE
+
+let clone = {
+    description: 'This command copies a repository from GitHub and puts it directly on my computer',
+    code: 'git clone REPO_URL'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +64,11 @@
 
 //CODE HERE
 
+let status = {
+    description: 'This command tells me about the repository',
+    code: 'git status'
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +76,11 @@
 */
 
 //CODE HERE
+let add = {
+    description: 'This command can add file contents and can also be tracked, can be used multiple times before a commit, and updates the current content of the working tree',
+    code: 'git add'
+}
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +90,11 @@
 
 //CODE HERE
 
+let commit = {
+    description: 'This command creates a snapshot of the files I am tracking and is the core building block units of a Git project timeline',
+    code: 'git commit'
+}
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +103,8 @@
 */
 
 //CODE HERE
+
+let push = {
+    description: 'This command puts my local commits on GitHub and transfers local repository to remote repository',
+    code: 'git push REPO_NAME'
+}
