@@ -15,8 +15,13 @@
 */
 
 //CODE HERE
-
-
+let me = {
+  firstName: 'Annie',
+  state: 'Utah',
+  age: 33,
+  greeter: `Hello! My name is ${this.name} and I live in ${this.state}`
+}
+console.log(me)
 
 
 
