@@ -19,9 +19,13 @@ let me = {
   firstName: 'Annie',
   state: 'Utah',
   age: 33,
-  greeter: `Hello! My name is ${this.name} and I live in ${this.state}`
+  greeter: `Hello! My name is ${this.firstName} and I live in ${this.state}`
+  // greeter: function() {
+  //   console.log(`Hello! My name is ${this.firstName} and I live in ${this.state}`)
+  // }
 }
 console.log(me)
+console.log(me.greeter)
 
 
 
@@ -50,3 +54,16 @@ console.log(me)
 */
 
 //CODE HERE
+function carFactory(make, model, year) {
+  let car = {
+    make: 'Nissan',
+    model:'Rogue',
+    year: 2017
+  }
+  if (car.year > 2018) {
+    car.isNew = true
+  } else {
+    car.isNew = false
+  }
+  return car
+}
