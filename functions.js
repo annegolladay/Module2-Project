@@ -38,7 +38,7 @@ console.log(greaterThanFive(5))
 */
 
 //CODE HERE
-/*
+
 function findZWords(word) {
   if (word.startsWith('Z') {
     return 'the name begins with Z'
@@ -47,7 +47,7 @@ function findZWords(word) {
   }
 }
 console.log(findZWords(zebra))
-*/
+
 
 //////////////////PROBLEM 4////////////////////
 /*
